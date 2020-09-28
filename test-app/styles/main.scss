@@ -1,0 +1,145 @@
+.container {
+    font-family: 'roboto', sans-serif;
+}
+
+.w3-bar {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+     :hover {
+        text-decoration: none;
+    }
+}
+
+i {
+    svg {
+        font-size: 60px;
+        color: #7DB7B4;
+    }
+}
+
+.w3-button {
+    border: thick solid white;
+    border-radius: 40px;
+}
+
+Table {
+    thead tr th {
+        color: #7983A5;
+    }
+    .table-data {
+        box-shadow: -1px 1px 11px 2px rgba(0, 0, 0, 0.10);
+        border-radius: 10px;
+    }
+    .spacer {
+        height: 10px;
+    }
+}
+
+.profile-card {
+    padding: 20px 50px 50px 50px;
+    p {
+        margin: auto;
+    }
+    .parent {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .circle {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .initial {
+        position: absolute;
+        top: 10px;
+        left: 20px;
+        font-size: 60px;
+    }
+}
+
+.applelike {
+    display: inline-block;
+    position: relative;
+    margin-top: 10%;
+}
+
+.applelike>input[type=text] {
+    background-color: lightgrey;
+    border: none;
+    border-radius: 4px;
+    height: 32px;
+    box-sizing: border-box;
+    line-height: 32px;
+    padding: 0 32px;
+    display: block;
+}
+
+.applelike span#zoom {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 32px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000;
+}
+
+.applelike span#close {
+    display: block;
+    position: absolute;
+    right: 6px;
+    top: 6px;
+    width: 20px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    color: lightgray;
+    background-color: black;
+    border-radius: 32px;
+}
+
+.sidenav {
+    max-width: auto;
+    min-width: auto;
+    background: white;
+    overflow-x: hidden;
+    padding: 5px 30px 20px 20px;
+    margin: auto;
+    ul {
+        list-style-type: none;
+    }
+    li {
+        a {
+            font-size: 15px;
+        }
+    }
+    svg {
+        color: #7DB7B4;
+    }
+    border: thick solid white;
+    border-radius: 10px;
+    box-shadow: 8px 10px 19px -2px rgba(125, 183, 180, 0.4);
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 0px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #666666;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.sidenav a:hover {
+    color: #064579;
+    text-decoration: none;
+}
